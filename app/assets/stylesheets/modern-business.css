@@ -23,6 +23,10 @@ body {
   color: #fff;
 }
 
+.page-header {
+  color: #3D9899;
+}
+
 .img-portfolio {
     margin-bottom: 30px;
 }
