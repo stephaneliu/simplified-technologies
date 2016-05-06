@@ -15,6 +15,14 @@ body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+.panel-default .panel-heading {
+  background-color: #3dc1c3;
+}
+
+.panel-default h4 {
+  color: #fff;
+}
+
 .img-portfolio {
     margin-bottom: 30px;
 }
