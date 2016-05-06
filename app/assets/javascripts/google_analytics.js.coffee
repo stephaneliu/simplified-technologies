@@ -41,4 +41,4 @@ class @GoogleAnalytics
   @analyticsId: ->
     'find_google'
 
-GoogleAnalytics.load()
+#GoogleAnalytics.load()
