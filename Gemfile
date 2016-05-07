@@ -25,6 +25,7 @@ group :development do
   gem 'html2haml'
   gem 'hub', :require=>nil
   gem 'quiet_assets'
+  gem 'rails_apps_pages'
   gem 'rails_layout'
   gem 'rb-fchange', :require=>false
   gem 'rb-fsevent', :require=>false
