@@ -1,0 +1,13 @@
+- card_number ||= 1
+
+.modal.fade{ id: "modal_#{card_number}", tabindex: '-1', role: "dialog", aria: { labelledby: "label_#{card_number}", hidden: true } }
+  .modal-dialog.modal-lg{ role: 'document' }
+    .modal-content
+      .modal-header
+        %h4.modal-title{id: "label_#{card_number}"}
+          = title
+      .modal-body
+        = content
+      .modal-footer
+        %button.btn.btn-default{data: {dismiss: 'modal'}}
+          Close
