@@ -1,11 +1,12 @@
 - title ||= "Book Today"
 - content ||= "Have fun during your stay."
 - card_number ||= 1
+- icon ||= 'fa-check'
 .col-md-3
   .panel.panel-default
     .panel-heading
       %h4
-        %i.fa.fa-fw.fa-check
+        %i.fa.fa-fw{class: "#{icon}"}
         =title
     .panel-body
       %p=content
